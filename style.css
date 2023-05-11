@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* { 
+    margin: 0;
+}
+
+nav {
+    margin-top: -40px;
+    position: fixed;
+    z-index: 100;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    max-width: 60vw;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px auto;
+}
+
+ul {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 0;
+    padding-top: 20px;
+    background-color: rgb(108, 190, 210);
+    width: 150px;
+    height: 100vh;
+    font-size: 40px;
+    font-weight: 600;
+    color: #714F43;
+    transition: 1s;
+    overflow: hidden;
+}
+
+span {
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+
+}
+
+/* Стремитесь располагать правила стилей в порядке расположения элементов в HTML-коде */
+
+.edit {
+    background-image: url("./icons/edit.png");
+}
+
+.favorites {
+    background-image: url("./icons/favorites.png");
+}
+
+.history {
+    background-image: url("./icons/history.png");
+}
+
+.security {
+    background-image: url("./icons/security.png");
+}
+
+.settings {
+    background-image: url("./icons/settings.png");
+}
+
+a {
+    display: block;
+    height: 19vh;
+    line-height: 150px;
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    background-color: rgb(108, 190, 210);
+    background-position: 20px 30px;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: left;
+    color: #714F43;
+    transition: .5s;   
+}
+
+ul:hover {
+    width: 400px;
+}
+
+a:hover {
+    background-color: rgb(89, 126, 135); 
+    cursor: pointer;
+}
